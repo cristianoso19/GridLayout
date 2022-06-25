@@ -1,6 +1,7 @@
 .container {
    border: 5px solid #e1bee7;
    background-color: #fff1ff;
+/*Clase 1*/
    display: grid;
    /*grid-template-columns: 100px 200px 300px;*/
    /*
@@ -17,11 +18,11 @@
     *gap: 40px;
     */
 /*
- *   RETO */
+ *   RETO 1 */
      grid-template-rows: 100px 100px 100px; 
-     grid-template-columns: 100px 100px;
-     grid-auto-flow: column;
-     gap: 20px;
+     /*grid-template-columns: 100px 100px;*/
+     /*grid-auto-flow: column;*/
+     /*gap: 20px;*/
  
 }
 .item{
