@@ -26,14 +26,26 @@
 
 
    /*CLASE 6: minmax y repeat*/
-   grid-template-columns: minmax(30px, 300px) 200px minmax(60px, 250px);
-   grid-template-rows: repeat(3, auto)
+   /*grid-template-columns: minmax(30px, 300px) 200px minmax(60px, 250px);*/
+   /*grid-template-rows: repeat(3, auto)*/
+
+
+   /*CLASE 7*/
+   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
    /*RETO 1*/
    /*grid-template-rows: 100px 100px 100px; */
    /*grid-template-columns: 100px 100px;*/
    /*grid-auto-flow: column;*/
    /*gap: 20px;*/
  
+}
+.contenedor-2{
+   border: 5px solid #e1bee7;
+   background-color: #fff1ff;
+   display: grid;
+   margin-top: 100px;
+   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
 .item{
    border: 5px solid #00bcd4;
