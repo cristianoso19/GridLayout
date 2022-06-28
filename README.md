@@ -35,3 +35,6 @@ Ventas: Es mas sencillo cambiar lo elementos y crear layouts mas sencillamente.
 * `justify-self: start|end|center|stretch` Alinea una celda horizontalmente.
 * `align-self: start|end|center|stretch` Alinea una celda verticalmete.
 * `place-self` Alinea una celda vertical y horizontalmente.
+### Funciones especiales
+* `minmax` Nos ayuda a declarar el tamaño minimo y máximo a una celda.
+* `repeat` permite repetir parametros dentro de la función.
